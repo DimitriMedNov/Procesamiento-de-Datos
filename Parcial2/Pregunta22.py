@@ -1,8 +1,13 @@
 # Importar las librerías necesarias
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras import layers, models
 from tensorflow.keras.utils import to_categorical
+from tensorflow.keras import layers, models
+
+import os
+
+
+# Imprimir el directorio de trabajo actual
+print(os.getcwd())
 
 # Cargar los datos del conjunto KMNIST
 # Asegúrate de que los datos están en el formato correcto y accesibles en la ruta especificada
